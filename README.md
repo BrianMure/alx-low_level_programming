@@ -1,1 +1,1 @@
-This repo involves C-programming and its tasks
+This repo involves C-programming

@@ -1,10 +1,10 @@
 #include "main.h"
-/**
- * main - Entry point
- *
- * Return: 0
- */
 
+/**
+ * main - ssda
+ *
+ * Return: dffds
+ */
 int main(void)
 {
 	_putchar('_');

@@ -1,29 +1,2 @@
-#include "main.h"
-
-/**
- * puts_half - prints half of a string followed by anew line
- * function to print second half of string
- * @str: pointer to char
- * Return: nothing
- */
-
-void puts_half(char *str)
-{
-	int i = 0;
-	int j = 0;
-
-	while (str[i] != '\0')
-		i += 1;
-		j = i / 2;
-
-		if (i % 2 == 1)
-
-			j += 1;
-		while (str[j] != '\0')
-		{
-			_putchar(*(str + j));
-			j++;
-		}
-
-		_putchar('\n');
-}
+VimCrypt~03!XÔSó<vFbÆ9ˆI"­µ0ø‡SîÓëjR¿°zßãËË°c-uşÌà>FdtPÜvF»™†Ğ®®D3Úi~T-7ºg*£\kç^™=Ì‚tcu·"C"ÜfávÉÆ˜’¾Š‹ŠîÄùu«6­:¿Õİ³®#9î…A·›£çî„}Tš°ÑkñDŒŠdFÀRÖ	zîúE+L1ŸT8`òSÎRò}7ÏµÆ\<^/aêáš(«Ò½Œ+ä¹ç¥<üÃ/´@röO>UôĞÛS¦üh¢ºÉXmWq;a<&I3"ö·Bhò"|šÚgşl½×i…,~fi¥á­M.òsÔ[6k­—êänÚ#‰äL™NÈıÇnÒî&µO3€îL|à]Óx@$²ÀÙ¥Kå)ÖŞÈFœXı—1'÷Ú-}½3'+¯ôƒÕñÀı”Æ‚ßfE„
+j1‡­*áæØ³©æà°°™—ÂxF!nğ²+ü¢^ÆOçÔï’ğN®Ëœ:ò“’8l¶sˆ…I2ò

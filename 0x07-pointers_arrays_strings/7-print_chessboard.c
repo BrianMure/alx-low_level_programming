@@ -4,44 +4,40 @@
 
 /**
  *
- *  * print_chessboard - a function that prints chessboard
+ *  * print_chessboard - prints the chessboard
  *
- *   * @a: size of 2D array
+ *   * @a: input pointer.
  *
- *    * Return: void
+ *    * Return: no return.
  *
  *     */
-
-
 
 void print_chessboard(char (*a)[8])
 
 {
 
-
-
-	int m, n;
-
-
-
-	for (m = 0; m < 8; m++)
-
-	{
-
-		for (n = 0; n < 8; n++)
-
-		{
-
-			_putchar (*(*(a + m) + n));
-
-		}
+		unsigned int i, m = 0;
 
 
 
-		_putchar ('\n');
+			for (i = 0; i < 64; i++)
 
-	}
+					{
 
+								if (i % 8 == 0 && i != 0)
 
+											{
+
+															m = i;
+
+																		_putchar('\n');
+
+																				}
+
+										_putchar(a[i / 8][i - m]);
+
+											}
+
+				_putchar('\n');
 
 }

@@ -1,1 +1,1 @@
-This repo involves C-programming
+Bit manipulation in C language
